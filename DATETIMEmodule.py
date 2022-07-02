@@ -1,0 +1,11 @@
+import datetime as dt
+print(dt.date.today())
+print(dt.date.today().year)
+print(dt.date.today().month)
+print(dt.date.today().day)
+print(dt.date.today().weekday())
+print(dt.timedelta(days=5))
+today=dt.date.today()
+birth_day =dt.date(2022,10,18)
+print(birth_day -today)
+print(dt.time(9,30,20,102525))
